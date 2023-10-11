@@ -1,0 +1,186 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Ubuntu', sans-serif;
+}
+.container{
+    width: 980px;
+    margin: 0 auto;
+}
+.menubar{
+    width: 100%;
+    height: 50px;
+    
+    box-shadow: 0 0 10px #666;
+    
+}
+.menubar .logo{
+    float: left;
+}
+.menubar h1{
+    margin: 0;
+    font-size: 64;
+    font-weight: normal;
+    padding: 10px;
+}
+.menubar ul.menu{
+    list-style: none;
+    float: right;
+}
+.menubar ul.menu li{
+    float: left;
+    margin-right: 20px;
+    margin: 20px;
+    font-size: 60;
+}
+.menubar ul.menu li a{
+    text-decoration: none;
+    color: #333;
+    border-bottom:2px solid transparent ;
+    padding-bottom: 20px;
+    transition: all 0.3px ease;
+}
+.menubar ul.menu li a:hover{
+    border-bottom:2px solid #333 ;
+    padding-bottom: 0;
+}
+.area{
+    background: #666 url(../img/bg.jpg) no-repeat;
+    background-position:center center ;
+    background-size: cover;
+    width: 100%;
+    height: 450px;
+}
+.area .area_11{
+    padding-top: 150px;
+    text-align: center;
+    color: #fff;
+    margin: 0 auto;
+    width: 660px;
+}
+.area .area_11 h1{
+    margin: 0;
+    font-size: 60px;
+    font-weight: normal;
+}
+.area .area_11 p{
+    margin: 0 auto;
+    margin-top: 15px;
+    width: 480px;
+    font-size: 16px;
+}
+.area_2{
+    width: 100%;
+    height: 400px;
+    
+}
+.area_2 .info{
+    color: #333;
+    text-align: center;
+    width: 460px;
+    float: left;
+    margin-top: 140px;
+    margin-left: 70px ;
+    
+}
+.area_2 img{
+    margin-top: 80px;
+    float: left;
+}
+.area_2 h1 {
+    margin: 0;
+    font-weight: normal;
+}
+.area_3{
+    width: 100%;
+    height: 350px;
+    background: #333;
+}
+.info_1{
+    color: #333;
+    text-align: center;
+    width: 460px;
+    float: left;
+    margin-top: 140px;
+    margin-left: 70px;
+    color: #fff;
+}
+.area_3 img{
+    margin-top: 48px;
+    float: right;
+    margin-left: 40px;
+}
+
+.info_1 h1{
+    
+    margin: 0;
+    font-weight: normal;
+}
+.input{
+    width: 100%;
+    height: 515px;
+}
+.input h1{
+    font-weight: normal;
+}
+.input input{
+    margin: 10px 0;
+    border: 2px solid #333;
+    border-radius: 10px;
+    width: 350px;
+    padding: 10px;
+}
+.input .send{
+    padding: 10px;
+    width: 90px;
+    background-color: #333;
+    color: #fff;
+    border: 2px solid transparent;
+    border-radius: 10px;
+    text-transform: uppercase;
+    transition: all 0.3 ease;
+    cursor: pointer;
+    
+}
+.input textarea{
+    margin: 10px 0;
+    border: 2px solid #333;
+    border-radius: 10px;
+    width: 350px;
+    padding: 10px;
+}
+.input .send:hover{
+    background: #fff;
+    color: #333;
+    border: 2px solid #333;
+    border-radius: 10px;
+}
+footer{
+    background: #333;
+    margin-top: 60px;
+    padding: 20px;
+    text-align: center;
+    color: #fff;
+}
+footer p{
+    margin: 0;
+}
+.google{
+    background: #fff;
+    color: #333;
+    border: 2px solid #333;
+    border-radius: 10px;
+    margin: 10px 0;
+    width: 90px;
+    padding: 10px;
+
+}
+.google:hover{
+    margin: 10px 0;
+    border: 2px solid #333;
+    border-radius: 10px;
+    background-color: #333;
+    padding: 10px;
+    color: #fff;
+
+}
